@@ -1,0 +1,42 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "node api.js",
+    "dev": "nodemon api.js",
+    "prettier": "prettier --write \"**/*.js\""
+  },
+  "prisma": {
+    "seed": "node prisma/seed.mjs"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "argon2": "^0.31.1",
+    "aws-sdk": "^2.1459.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-validator": "^7.0.1",
+    "formidable": "^3.5.1",
+    "helmet": "^7.0.0",
+    "luxon": "^3.4.3",
+    "memcached": "^2.2.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "qrcode": "^1.5.3",
+    "redis": "^4.6.8",
+    "reflect-metadata": "^0.1.13",
+    "sharp": "^0.32.5",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "debug": "^4.3.4",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "prisma": "^5.3.1"
+  }
+}
